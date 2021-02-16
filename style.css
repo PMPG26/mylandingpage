@@ -1,0 +1,55 @@
+body{
+	text-align: center;
+	font-family:verdana;
+	background-image: url(imagens/matrix.jpg);
+	background-size: cover;
+	background-blend-mode: darken;
+	color:white;
+	}
+
+h1	{
+	font-size: 70px;
+	padding-top: 30px;
+	text-shadow: 3px 3px 3px green;
+	margin-bottom: 20px;
+}
+
+p{
+	font-size: 20px;
+	text-shadow: 3px 3px 3px black;
+	margin-bottom: 20px;
+}
+
+.botao{
+	text-decoration: none;
+	background-color: rgb(1,150,30);
+	color: white;
+	font-size: 20px;
+	padding: 10px 10px 10px 10px;
+	border-radius: 4px;
+	margin-top: 20px;
+}
+
+.botao:hover{
+	background-color:gray;
+}
+
+.lista{
+list-style: none;
+padding-left: 0px;
+margin-top: 40px;
+}
+
+.lista li{
+display: inline;
+}
+
+.lista a{
+	color:white;
+	font-size: 40px;
+}
+
+.profile{
+		border-radius: 150px;
+		box-shadow: 3px 3px 3px green;
+
