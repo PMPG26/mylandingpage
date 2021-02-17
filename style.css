@@ -1,7 +1,7 @@
 body{
 	text-align: center;
 	font-family:verdana;
-	background-image: url(imagens/matrix.jpg);
+	background-image: url("Imagens/matrix.jpg");
 	background-size: cover;
 	background-blend-mode: darken;
 	color:white;
