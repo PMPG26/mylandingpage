@@ -43,7 +43,7 @@ margin-top: 40px;
 
 .lista li{
 display: inline;
-padding-left: 10px;
+margin-right: 10px;
 }
 
 .lista a{
