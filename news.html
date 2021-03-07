@@ -17,5 +17,65 @@
   <br>
   <p>This is another public service announcement brought to you in part....by me...</p>
   <p>This is my second attempt building my own Landing page...with some minor upgrades!</p>
+	<br>
+		<hr>
+      <form>
+        <h1>Tell me your opinion!</h1>
+        <section class="protein">
+          <label for="landing">What could this Landing Page improve?</label>
+    			<input type="text" name="landing" id="landing" value="lots of stuff">
+        </section>
+        <hr>
+        <section class="points">
+          <label for="classification">Do you like my landing page?</label>
+          <br>
+          <span>It sucks!</span>
+          <input type="range" name="classification" id="classification" value="3" min="1" max="5">
+          <span>Great!</span>
+        </section>
+        <hr>
+        <section class="question">
+          <span>What brings you here?</span>
+          <br>
+          <input type="checkbox" name="question" id="frontend" value="frontend">
+          <label for="frontend">Frontend</label>
+          <input type="checkbox" name="question" id="backend" value="backend">
+          <label for="backend">Backend</label>
+          <input type="checkbox" name="question" id="datascience" value="datascience">
+          <label for="datascience">Data Science</label>
+        </section>
+        <hr>
+        <section class="design">
+          <span>Do you like the design?</span>
+          <br>
+          <input type="radio" name="design" id="yes" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" name="design" id="no" value="yes">
+          <label for="no">No</label>
+        </section>
+        <hr>
+        <section class="content">
+          <label for="content">What kind of content would you add?</label>
+          <select name="content" id="content">
+            <option value="photos">Photos</option>
+            <option value="videos">Videos</option>
+            <option value="other">Other</option>
+          </select>
+        </section>
+        <hr>
+
+        <section class="music-selection">
+					<label for="sauce">What kind of music would you like to listen here?</label>
+          <input list="music" id="sauce" name="music">
+          <!--Add your code below-->
+					<datalist id="musics">
+    <option value="hip-hop"></option>
+    <option value="rock"></option>
+    <option value="metal"></option>
+  </datalist>
+          
+        </section>
+
+      </form>
 </body>
 </html>
